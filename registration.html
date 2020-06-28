@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lan="en">
+<head><title>homepage</title>
+<style>
+img{
+height:100px;
+width:150px;
+float:top-left;}
+.right{
+float:right;
+font-style:bold;
+padding:15px;
+
+}
+input{
+border-radius: 3px;
+background-color:#f5f5ef;
+}
+header{
+background-color:#476b6b;
+padding:20px;
+}
+th, td {
+padding: 10px;
+text-align:center;
+}
+body{
+background-color:#ebebe0;}
+
+</style></head>
+<body>
+<center><h1>REGISTRATION PAGE:</h1></center>
+<a class="left" href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" ></a>
+<a class="right" style="font-size:30px; font-style:bold;" href="https://serc.iiit.ac.in/rdip">RDIP</a>
+<header class="head"><a style="color:white;text-decoration:none;" href="homepage.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="color:white;text-decoration:none;" href="registration.html">Registration Form</a></header>
+<form method="get" action="details.html">
+<table>
+<tr><th>First name:</th><td><input type="text" width="70px" height="10px" id="name" name="name" required></td><tr>
+<tr><th>E-mail:</th><td><input type="text" width="70px" height="10px" id="e-mail" name="e-mail" required></td><tr>
+<tr><th>Phone No:</th><td><input type="text" width="70px" height="10px" id="phno" name="phno" required></td><tr>
+<tr><th>Gender:</th><td> <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other" required>
+  <label for="other">Other</label></td></tr>
+ <tr><th>Reasons for RDIP:</th><td> <input type="checkbox" id="html" name="course" value="html" required>
+  <label for="html">HTML</label>
+  <input type="checkbox" id="css" name="course" value="css" required>
+  <label for="css">CSS</label>
+  <input type="checkbox" id="js" name="course" value="js" required>
+  <label for="js">JavaScript</label></td></tr>
+  <tr><th>College:</th><td><input type="text" width="70px" height="10px" id="name" name="name" required></td><tr>
+  <tr><td><input type="checkbox" required></td><td>I declare above details given by me are true.</td></tr>
+  <tr><td><input type="submit" value="submit"> </td><td><center><input type="reset"></center></td></tr>
+  </table>
+  </form>
+  
