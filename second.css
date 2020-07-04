@@ -1,0 +1,29 @@
+li
+{
+	list-style: none;
+}body
+{
+	background-color: #cccc99;
+	font-style:bold;
+	font-size: 20px;
+
+}
+input
+{
+	background-color: #c2c2a3;
+	font-style: bold;
+	height:20px;
+}
+h1 {
+margin-left: 70px;
+color:#666633;
+}
+
+textarea
+{
+	background-color: #c2c2a3;
+	font-style: bold;
+	height:100px;
+	width:250px;
+
+}

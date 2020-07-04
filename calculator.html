@@ -1,0 +1,57 @@
+<!doctype html>  
+<html>  
+  
+    <head>  
+    <title>Javascript Calculator</title>  
+   <link rel='stylesheet' href='cal.css' type='text/css' />
+<script src="first.js"></script>
+         </head>  
+  
+    <body>  
+        <h1>  
+            Javascript Calculator</h1>  
+     <center>  <table border="1"> <div class="calbody">  
+            <form name="calform">  
+            	
+                <tr><th colspan="4"><input id="caldisplay1" name="display1" type="text" value="" /></th></tr>  
+               <tr><th colspan="4"> <input id="caldisplay2" name="dispaly2" type="text" value="0" /></th></tr>
+            </form>  
+            <div id="calbutton">  
+             <tr>
+               <th>  <button id="num1" onclick="numone();">1</button></th> 
+               <th> <button id="num2" onclick="numtwo();">2</button>  </th>
+               <th> <button id="num3" onclick="numthree();">3</button> </th> 
+               <th><button id="clr" onclick="clr();">C</button></th>
+              </tr>  
+              <tr>  
+                <th> <button id="num4" onclick="numfour();">4</button> </th> 
+                <th><button id="num5" onclick="numfive();">5</button>  </th>
+                <th><button id="num6" onclick="numsix();">6</button> </th>
+                <th> <button id="operationmult" onclick="operationmult();">*</button> </th>
+             </tr>
+             <tr> 
+               <th> <button id="num7" onclick="numseven();">7</button></th>  
+               <th> <button id="num8" onclick="numeight();">8</button>  </th>
+                <th><button id="num9" onclick="numnine();">9</button> </th> 
+                <th> <button id="operationminus" onclick="operationminus();">-</button></th>
+            </tr>
+             <tr>
+               	<th><button id="operationplus" onclick="operationplus();">+</button></th>
+                <th><button id="operationsqrt" onclick="sqrots();">Sqrt()</button>  </th>  
+                <th><button id="operationmodulus" onclick="operationmodulus();">||</button></th>
+                <th><button id="operationperc" onclick="operationperc();">%</button></th> 
+             </tr>
+             <tr>
+                <th><button id="num0" onclick="numzero();">0</button>  </th>
+                <th><button id="num00" onclick="numdobuzero();">00</button></th>  
+               <th><button id="operationdivid" onclick="operationdivid();">/</button></th>  
+               <th> <button id="sumbit" onclick="equalsto();">=</button></th>
+              </tr> 
+            </div>  
+        </div>  
+        </table></center>
+        <!-- Javascript code -->  
+
+    </body>  
+  
+</html> 
